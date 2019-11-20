@@ -25,6 +25,12 @@
         "alexz29/php-ffmpeg": "*",
         "symfony/process": "^4.3.4"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Alexz29/PHP-FFMpeg.git"
+        }
+    ],
     "require-dev": {
         "mockery/mockery": "^1.2.3",
         "phpunit/phpunit": "^8.3",
